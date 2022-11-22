@@ -5,3 +5,11 @@ form.addEventListener('submit', event => {
     event.preventDefault();
     controller.adiciona();
 });
+/*
+Forma para vizualizar no console o template gerado pelo typescript
+
+const negociacoesView = new NegociacoesView
+const template = negociacoesView.template();
+console.log(template)
+
+*/

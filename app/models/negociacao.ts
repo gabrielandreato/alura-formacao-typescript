@@ -1,14 +1,14 @@
+
+ // classe com propriedades e metodos do objeto negociação
 export class Negociacao {
-
-
     constructor(
-        private readonly _data: Date,
-        private readonly quantidade: number, // formato menos verboso utilizado para declarar propriedades
-        private readonly valor: number
+        private _data: Date,
+        public quantidade: number,
+        public valor: number // formato menos verboso utilizado para declarar propriedades
     ) {}
 
     get data(): Date {
-        const data = new Date(this.data.getTime()); // utilizado na programação defensiva para garantir imutabilidade
+        const data = new Date(this._data.getTime()); // utilizado na programação defensiva para garantir imutabilidade
         return data;
     }
 
