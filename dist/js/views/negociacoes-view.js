@@ -1,7 +1,5 @@
 import { View } from "./view.js";
-// classe que renderiza a tabela e cabecalho dos dados capturados pelo formulario
 export class NegociacoesView extends View {
-    /* Declara o template da view*/
     template(model) {
         return `
         <table class="table table-hover table-bordered">
@@ -19,7 +17,8 @@ export class NegociacoesView extends View {
                             <td>${this.formatar(negociacao.data)}</td>    
                             <td>${negociacao.quantidade}</td>    
                             <td>${negociacao.valor}</td>    
-                        </tr>`;
+                        </tr>
+                    `;
         }).join('')}
             </tbody>
         </table>

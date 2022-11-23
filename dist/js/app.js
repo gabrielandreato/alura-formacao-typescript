@@ -1,15 +1,12 @@
 import { NegociacaoController } from './controllers/negociacao-controller.js';
 const controller = new NegociacaoController();
 const form = document.querySelector('.form');
-form.addEventListener('submit', event => {
-    event.preventDefault();
-    controller.adiciona();
-});
-/*
-Forma para vizualizar no console o template gerado pelo typescript
-
-const negociacoesView = new NegociacoesView
-const template = negociacoesView.template();
-console.log(template)
-
-*/
+if (form) {
+    form.addEventListener('submit', event => {
+        event.preventDefault();
+        controller.adiciona();
+    });
+}
+else {
+    throw Error('Não foi possivel iniciar a aplicação. Verifique se o formulario existe');
+}

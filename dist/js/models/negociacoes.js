@@ -1,4 +1,3 @@
-// classe que contem o array e metodos para manipulação do mesmo
 export class Negociacoes {
     constructor() {
         this.negociacoes = [];
