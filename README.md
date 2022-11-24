@@ -33,3 +33,5 @@ Orientação a Objetos.</b></h2>
 <h5> - Pagina Principal.</h5>
 
 <img src="./docs/paginaProjetoNegociacoesTypescript.png">
+<img src="./docs/typescript1.png">
+<img src="./docs/typescript2.png">
