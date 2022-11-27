@@ -37,7 +37,14 @@ Orientação a Objetos.</b></h2>
    - Fetch
    - Interfaces
    - Services
- 
+
+
+ - Interfaces
+   - Polimorfismo
+   - Generics
+   - Debugging
+
+
 <h3>Exemplos do Projeto.</h3>
 <h5> - Pagina Principal.</h5>
 
@@ -45,3 +52,4 @@ Orientação a Objetos.</b></h2>
 <img src="./docs/paginaProjetoNegociacoesTypescript.png">
 <img src="./docs/typescript1.png">
 <img src="./docs/typescript2.png">
+<img src="./docs/typescript3.png">
