@@ -16,6 +16,8 @@ Orientação a Objetos.</b></h2>
    - Herança e Reaproveitamento de Código
    - Views
    - Visibilidade de metodos e Enumerations
+
+
  - StrictNullCheck
 
 
@@ -25,12 +27,20 @@ Orientação a Objetos.</b></h2>
    - Inspect (Para acompanhar performance)
    - Escape (Para tratar qualquer script incluso não desejado.)
 
+
  - Decorators para Propriedades
    - Dom Injector
    - Cache do navegador
+   
+
+ - API 
+   - Fetch
+   - Interfaces
+   - Services
  
 <h3>Exemplos do Projeto.</h3>
 <h5> - Pagina Principal.</h5>
+
 
 <img src="./docs/paginaProjetoNegociacoesTypescript.png">
 <img src="./docs/typescript1.png">
